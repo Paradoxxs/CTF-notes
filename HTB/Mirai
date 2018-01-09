@@ -70,3 +70,8 @@ Uniscan
 Default password ssh
   user: pi
   password: raspberry
+  
+  
+  df to see mounted 
+  
+  pi@raspberrypi:/media/usbstick $ strings /dev/sdb   : read usb raw data
