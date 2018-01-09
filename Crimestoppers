@@ -1,0 +1,42 @@
+Crimestopper 10.10.10.80 HACKTHEBOX 
+
+
+Nmap: 
+
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.25 ((Ubuntu))
+
+
+
+Webservice | Burpsuit
+
+Cookie: admin=0 set to 1 to get admin? 
+
+set admin=1 and page http://10.10.10.80/?op=list becomes visable. 
+
+
+view-source:http://10.10.10.80/?op=upload 
+<!-- #59: SQL Injection in Tip Submission - Removed database requirement by changing submit tip to create a file. -->
+
+
+
+http://10.10.10.80/?op=view&secretname=whiterose.txt 
+Hello, <br /> You guys should really learn to code, one of the GET Parameters is still vulnerable. Most will think it just leads to a Source Code disclosure but there is a chain that provides RCE. <br /> Contact WhiteRose@DarkArmy.htb for more info. 
+
+
+
+
+http://10.10.10.80/uploads/
+READ THE SOURCE LUKE
+
+
+
+
+
+
+
+
+
+
+
