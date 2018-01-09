@@ -1,0 +1,17 @@
+10.10.10.68 BASHED
+
+Nmap
+
+  host         port  proto  name  state  info
+  ----         ----  -----  ----  -----  ----
+  10.10.10.68  80    tcp    http  open   Apache httpd 2.4.18 (Ubuntu)
+  
+  
+  Dirbuter webpage for php 
+  
+  Go to: http://10.10.10.68/dev/phpbash.php
+    cat /home/arrexel/user.txt
+    
+
+id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
