@@ -1,0 +1,27 @@
+Nmap Port scan: 
+nmap IP
+nmap -sS -v -A IP
+nmap -sC -sV -oA filename IP
+nmap -sU -p1-1000 IP >> filename
+namp -sC -sS -sV -F IP <--FOR QUICK START MY PENETRATION 
+namp -sV -p- IP
+
+
+uniscan -u IP -qweds
+
+Webpage scanner:
+nikto -host IP
+dirb 
+
+
+priv escalation 
+https://github.com/1N3/PrivEsc
+
+
+linux 
+ps aux | grep root
+ps aux | grep root | grep py
+
+crontab:
+sudo crontab -l
+crontab -u root -l
