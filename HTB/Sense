@@ -1,0 +1,13 @@
+10.10.10.60 Sense
+
+Nmap 
+port open 80 http
+port open 445 https
+
+Dirbuster 
+
+HTTPS://10.10.10.60
+ext: php,html,cgi
+
+all / redirect to login screen
+/installer redirect to login
