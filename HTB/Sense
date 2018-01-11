@@ -11,3 +11,26 @@ ext: php,html,cgi
 
 all / redirect to login screen
 /installer redirect to login
+
+https://10.10.10.60/changelog.txt
+# Security Changelog 
+
+### Issue
+There was a failure in updating the firewall. Manual patching is therefore required
+
+### Mitigated
+2 of 3 vulnerabilities have been patched.
+
+### Timeline
+The remaining patches will be installed during the next maintenance window
+
+
+/system-users.txt
+
+####Support ticket###
+
+Please create the following user
+
+
+username: Rohit
+password: company defaults
