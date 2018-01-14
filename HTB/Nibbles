@@ -14,3 +14,8 @@ http://10.10.10.75/nibbleblog/admin/
 
 
 admin login page: http://10.10.10.75/nibbleblog/admin.php
+
+nibbleblog 4.0.3 exploit 
+https://www.curesec.com/blog/article/blog/NibbleBlog-403-Code-Execution-47.html
+
+need password for admin, must be located on the server as a file
