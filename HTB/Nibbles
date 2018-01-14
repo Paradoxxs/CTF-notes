@@ -1,0 +1,8 @@
+Nibble 10.10.10.75
+
+PORT 22 SSH
+port 80 Http Apache httpd 2.4.18
+
+http://10.10.10.75/.htaccess : Access forbidden
+
+hint: good machine to learn msf. 
