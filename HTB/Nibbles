@@ -1,6 +1,7 @@
 Nibble 10.10.10.75
 
-PORT 22 SSH
+OS : UBUNTU
+PORT 22 SSH : openssh7.2p2
 port 80 Http Apache httpd 2.4.18
 
 http://10.10.10.75/.htaccess : Access forbidden
@@ -19,3 +20,6 @@ nibbleblog 4.0.3 exploit
 https://www.curesec.com/blog/article/blog/NibbleBlog-403-Code-Execution-47.html
 
 need password for admin, must be located on the server as a file
+admin.php is protected by blacklist, there for can not be bruteforced
+
+admin@nibblers.com
