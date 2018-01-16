@@ -1,0 +1,15 @@
+10.10.10.67 Inception
+
+OS: linux
+Service 
+
+80 HTTP Apace httpd 2.4.18
+3128 HTTP-proxy squid http proxy 3.5.12
+
+10.10.10.67:3128 | invaild url
+
+add the http-proxy to firefox.
+
+10.10.10.67:3128 | website respondes with : access denied
+
+  
