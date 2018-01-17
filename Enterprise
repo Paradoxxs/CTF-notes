@@ -1,0 +1,30 @@
+10.10.10.61 Enterprise
+
+
+22  ssh protocol 2.0
+80  http word press 4.8.1
+443 http  apache
+8080 http-proxy
+32812 unkown | response LCARS
+
+login : 
+http://10.10.10.61/wp-login.php
+
+ wpscan --url http://10.10.10.61 --enumerate u,ap,tt,t 
+    +----+---------------+---------------------+
+    | Id | Login         | Name                |
+    +----+---------------+---------------------+
+    | 1  | william-riker | william.riker – USS |
+    +----+---------------+---------------------+
+    william.riker is the username
+ need password for the login on the wordpress server
+ 
+ https | default apache | does not have word press installed. 
+ 
+ 8080 also have login page. 
+ 
+ 32812 connect via netcat | require password
+ 
+ Mister Bert0ni here...  from https://10.10.10.61/files/index.php | http://10.10.10.61:8080/files/
+ 
+ 
