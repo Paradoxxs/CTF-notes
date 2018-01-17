@@ -52,6 +52,7 @@ http://10.10.10.80/?op=php://filter/convert.base64-encode/resource=index
 sha1 always produce a hashed message of 40character, of what seems to be random. 
 the most logical, it what I somehow need to bypass the genprocess ? 
  
-
+ I now I can maniputlate the submit and tip post varibles
+but the problem that remainds is the sha1 that genertate the secretname for the file, it need to be alter to allow uploading a file with the name of my choice
 
 
