@@ -161,6 +161,12 @@ possible login ? webdav_tester:$apr1$8rO7Smi4$yqn7H.GvJFtsTou1a7VME0
 
 _________________________________________________
 
+/etc/apache2/mod-enable/dir.conf
+<IfModule mod_dir.c>
+	DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+</IfModule>
+
+_______________________________________________________________________________________
 #ServerRoot "/etc/apache2"
 
 #
@@ -261,4 +267,9 @@ IncludeOptional sites-enabled/*.conf
   apache is run by www-data
   
   /var/www/log/apache2/access | no access
+  
+  
+http://10.10.10.67/webdav_test_inception/webdav.passwd |
+possible login ? webdav_tester:$apr1$8rO7Smi4$yqn7H.GvJFtsTou1a7VME0   md5 encryption/hash  | an way to pass the hash ? 
+			       
   
