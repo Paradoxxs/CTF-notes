@@ -271,5 +271,16 @@ IncludeOptional sites-enabled/*.conf
   
 http://10.10.10.67/webdav_test_inception/webdav.passwd |
 possible login ? webdav_tester:$apr1$8rO7Smi4$yqn7H.GvJFtsTou1a7VME0   md5 encryption/hash  | an way to pass the hash ? 
+
+using hashcat to decrypt the password with rockyou list from /usr/share/wordlists/rockyou.txt
+password : babygurl69 
+
+now I just need to find the correct dir under webdav_test_inception
 			       
+  http://10.10.10.67/webdav_test_inception/cm.php | allow me to send querys, lets try get the source code to see what the queries get send too
+  cm.php gone ? added by an other user ? lets try dirbuster again and see what location we find. 
+  ls commands show ce.php and webdav.paswd
   
+  I think the quiery page get genrated randomly every time it reset ? 
+  it allows me to execute certains commands on the server, now I just need to find what commands I can execute to get a remote shell on the server. NC does not seems to work. 
+  lets try to ping my own server. 
