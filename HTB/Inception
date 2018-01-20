@@ -57,36 +57,13 @@ def("DOMPDF_ADMIN_PASSWORD", "password");
   right know the only two ports running are 80 and 3128 and neither of them allow for connection. 
   So Either i need way to execute command or port not found yet.
   
+  
   /proc/self/environ | same as /etc/passwd
   
   until an open port is shown i need to go from LFI to code execution
   
   /etc/apache2/apache2.conf  | can get
   
-#	/etc/apache2/
-#	|-- apache2.conf
-#	|	`--  ports.conf
-#	|-- mods-enabled
-#	|	|-- *.load
-#	|	`-- *.conf
-#	|-- conf-enabled
-#	|	`-- *.conf
-# 	`-- sites-enabled
-#	 	`-- *.conf
-#
-#
-# * apache2.conf is the main configuration file (this file). It puts the pieces
-#   together by including all remaining configuration files when starting up the
-#   web server.
-#
-# * ports.conf is always included from the main configuration file. It is
-#   supposed to determine listening ports for incoming connections which can be
-#   customized anytime.
-#
-# * Configuration files in the mods-enabled/, conf-enabled/ and sites-enabled/
-#   directories contain particular configuration snippets which manage modules,
-#   global configuration fragments, or virtual host configurations,
-#   respectively.
 
 -----------------------------------------------------------------------------------
 000-default.conf : 
@@ -136,28 +113,6 @@ http://10.10.10.67/webdav_test_inception/webdav.passwd | login page
 
 http://10.10.10.67/webdav_test_inception/webdav.passwd |
 possible login ? webdav_tester:$apr1$8rO7Smi4$yqn7H.GvJFtsTou1a7VME0
-
-/etc/apache2/conf-available/serve-cgi-bin.conf
-
-<IfModule mod_alias.c>
-	<IfModule mod_cgi.c>
-		Define ENABLE_USR_LIB_CGI_BIN
-	</IfModule>
-
-	<IfModule mod_cgid.c>
-		Define ENABLE_USR_LIB_CGI_BIN
-	</IfModule>
-
-	<IfDefine ENABLE_USR_LIB_CGI_BIN>
-		ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
-		<Directory "/usr/lib/cgi-bin">
-			AllowOverride None
-			Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
-			Require all granted
-		</Directory>
-	</IfDefine>
-</IfModule>
-
 
 _________________________________________________
 
@@ -270,11 +225,12 @@ IncludeOptional sites-enabled/*.conf
   
   
 http://10.10.10.67/webdav_test_inception/webdav.passwd |
-possible login ? webdav_tester:$apr1$8rO7Smi4$yqn7H.GvJFtsTou1a7VME0   md5 encryption/hash  | an way to pass the hash ? 
+possible login ? webdav_tester:$apr1$8rO7Smi4$yqn7H.GvJFtsTou1a7VME0   md5 hash  
 
 using hashcat to decrypt the password with rockyou list from /usr/share/wordlists/rockyou.txt
 password : babygurl69 
 
+webdav_tester | babygurl69
 now I just need to find the correct dir under webdav_test_inception
 			       
   http://10.10.10.67/webdav_test_inception/cm.php | allow me to send querys, lets try get the source code to see what the queries get send too
@@ -284,3 +240,11 @@ now I just need to find the correct dir under webdav_test_inception
   I think the quiery page get genrated randomly every time it reset ? 
   it allows me to execute certains commands on the server, now I just need to find what commands I can execute to get a remote shell on the server. NC does not seems to work. 
   lets try to ping my own server. 
+  
+  I can see there running a FTP and SSH server on the machine, lets try and use the http proxy to get access to the services. 
+
+hint from Robert
+use htp proxy to get ssh shell
+tftp to get root
+tftp is ftp whitout auth.
+
