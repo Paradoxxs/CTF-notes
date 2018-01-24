@@ -269,5 +269,12 @@ pass : VwPddNh7xMZyDQoByQL4
 /root/root.txt
 You're waiting for a train. A train that will take you far away. Wake up to find root.txt.
 
+from DAnners
+arp 
+
+Address                  HWtype  HWaddress           Flags Mask            Iface
+192.168.0.1              ether   fe:3e:89:5f:74:11   C                     eth0
+
+ftp 192.168.0.1 anonymous
 
 
