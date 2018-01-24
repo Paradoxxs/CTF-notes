@@ -55,4 +55,14 @@ the most logical, it what I somehow need to bypass the genprocess ?
  I now I can maniputlate the submit and tip post varibles
 but the problem that remainds is the sha1 that genertate the secretname for the file, it need to be alter to allow uploading a file with the name of my choice
 
+Getting shell ? 
 
+ChOkO hints me at using php wrapper 
+max talk about long file
+
+Idea create a file in the upload funktion with php code. and then try load that code in the index.php?op= and see if it get executed. 
+
+here is were my uploaded file are stored on the server. 
+It seems like from here code does get executed. 
+can execute html and js code. 
+http://10.10.10.80/uploads/10.10.14.178/
