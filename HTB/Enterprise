@@ -19,6 +19,8 @@ http://10.10.10.61/wp-login.php
     william.riker is the username
  need password for the login on the wordpress server
  
+ hydra -l william.riker  -P 10pas 10.10.10.61 -V http-form-post '/wp-login.php:log=william.riker&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location'
+ 
  https | default apache | does not have word press installed. 
  
  8080 also have login page. 
@@ -27,4 +29,21 @@ http://10.10.10.61/wp-login.php
  
  Mister Bert0ni here...  from https://10.10.10.61/files/index.php | http://10.10.10.61:8080/files/
  
- 
+ LCARS
+<?php
+/*
+*     Plugin Name: lcars
+*     Plugin URI: enterprise.htb
+*     Description: Library Computer Access And Retrieval System
+*     Author: Geordi La Forge
+*     Version: 0.2
+*     Author URI: enterprise.htb
+// Need to create the user interface.
+// need to finsih the db interface
+// need to make it secure
+?> 
+
+
+
+
+
