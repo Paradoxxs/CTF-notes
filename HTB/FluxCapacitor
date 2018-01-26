@@ -27,24 +27,4 @@ note:
     
     
     
-    
-curl http://fluxcapacitor.htb/sync?url=asdas 10.10.10.69
-respond
-20180126T20:58:12
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Keep Alive</title>
-</head>
-<body>
-	OK: node1 alive
-	<!--
-		Please, add timestamp with something like:
-		<script> $.ajax({ type: "GET", url: '/sync' }); </script>
-	-->
-	<hr/>
-	FluxCapacitor Inc. info@fluxcapacitor.htb - http://fluxcapacitor.htb<br>
-	<em><met><doc><brown>Roads? Where we're going, we don't need roads.</brown></doc></met></em>
-</body>
-</html>
+   
