@@ -79,4 +79,5 @@ To execute php code it must have .php extionsion
 Hint from Zc00l php funktion can extract zip and execute files. 
 the question is how do we upload a zip file / archive filed ? 
 
-
+With 7zip I can store / archive the file it clear format. by selecting store. 
+agent22 told me to encode it it url and send it to tip. yet this does not work. The program just sees it as normal text. 
