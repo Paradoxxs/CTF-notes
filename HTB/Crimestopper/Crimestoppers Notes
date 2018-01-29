@@ -123,3 +123,5 @@ According to my research, if this rootkit was on the server I should be
 able to run "nc localhost 80" and then type "get root" to get a root 
 shell.   However, the server just errors out without providing any shell 
 at all.  Would you mind checking if this is a false positive?
+
+/etc/apache2/mods-enable/rootme.load
