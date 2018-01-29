@@ -111,3 +111,15 @@ We got a suspicious email from the DarkArmy claiming there is a
     <p>According to my research, if this rootkit was on the server I
       should be able to run "nc localhost 80" and then type get root to
       get<br>
+      
+Elliot.
+
+We got a suspicious email from the DarkArmy claiming there is a Remote 
+Code Execution bug on our Webserver.  I don't trust them and ran 
+rkhunter, it reported that there a rootkit installed called: 
+apache_modrootme backdoor.
+
+According to my research, if this rootkit was on the server I should be 
+able to run "nc localhost 80" and then type "get root" to get a root 
+shell.   However, the server just errors out without providing any shell 
+at all.  Would you mind checking if this is a false positive?
