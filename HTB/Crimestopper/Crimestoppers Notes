@@ -125,3 +125,7 @@ shell.   However, the server just errors out without providing any shell
 at all.  Would you mind checking if this is a false positive?
 
 /etc/apache2/mods-enable/rootme.load
+
+-rw-r----- 1 root dom    48584 Dec 22 10:16 mod_rootme.so
+File it created by dom, to read the file I need to be loggin as dom or find a way to execute something as dom. 
+
