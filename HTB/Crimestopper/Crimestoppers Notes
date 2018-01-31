@@ -160,4 +160,4 @@ PORT   STATE SERVICE
 ssh dom@dead:beef::250:56ff:feb9:c14d
 password Gummer59
 
-
+ipv6 changes after reset
