@@ -37,6 +37,17 @@ Are you really trying ../../../../../../../../../etc/passwd!? Did we Time Travel
 
 I know there an way to download the file ( to do LFI)
 
+Used onlinedisassembler to disassemble the mod_rootme.so
+
+Thank I got some help about the assembly code: 
+Function darkarmy
+lea 0x11d(%rip),%rdi # 0x00001bf2
+lea 0x121(%rip),%rdi # 0x00001bfd   : reference HackTheBox
+
+
+
+
+
 work to get index.php in base64 encoding
 http://10.10.10.80/?op=php://filter/convert.base64-encode/resource=index
 
