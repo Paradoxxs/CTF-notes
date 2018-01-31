@@ -156,3 +156,8 @@ Results:
 PORT   STATE SERVICE
 22/tcp open  ssh
 80/tcp open  http
+
+ssh dom@dead:beef::250:56ff:feb9:c14d
+password Gummer59
+
+
