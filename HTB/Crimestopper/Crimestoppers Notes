@@ -144,4 +144,15 @@ imap://crimestoppers.htb: 'dom@crimestoppers.htb\x03\x03\x03' , 'Gummer59\x08\x0
 smtp://crimestoppers.htb: 'dom@crimestoppers.htb\x03\x03\x03' , 'Gummer59\x08\x08\x08\x08\x08\x08\x08\x08'
 so dom and Gummer59
 
+The idea is that the cred are for ssh but it not open, lets check ivp6 if there any different 
 
+ifconfig on victim
+        inet6 dead:beef::250:56ff:feb9:c14d  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::250:56ff:feb9:c14d  prefixlen 64  scopeid 0x20<link>
+	
+Lets scan the target: 
+nmap -6 -Pn dead:beef::250:56ff:feb9:c14d 
+Results: 
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
