@@ -133,3 +133,15 @@ at all.  Would you mind checking if this is a false positive?
 -rw-r----- 1 root dom    48584 Dec 22 10:16 mod_rootme.so
 File it created by dom, to read the file I need to be loggin as dom or find a way to execute something as dom. 
 https://github.com/jingchunzhang/backdoor_rootkit/tree/master/mod_rootme-0.4  #Here the github about the backdoor rootkit for apache
+
+Thunderbird contains user name and logins. in logins.json but they are encrupted. by using key3.db which contains the encryption key.
+I can decrypt the username and password 
+googling "thunderbird use key3.db to decrypt logins.json" I have found https://github.com/lclevy/firepwd that can decrypt logins.json w
+by using key.db and logins.json. 
+
+The result I got are: 
+imap://crimestoppers.htb: 'dom@crimestoppers.htb\x03\x03\x03' , 'Gummer59\x08\x08\x08\x08\x08\x08\x08\x08'
+smtp://crimestoppers.htb: 'dom@crimestoppers.htb\x03\x03\x03' , 'Gummer59\x08\x08\x08\x08\x08\x08\x08\x08'
+so dom and Gummer59
+
+
