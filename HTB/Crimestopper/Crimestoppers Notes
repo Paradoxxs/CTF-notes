@@ -172,3 +172,16 @@ ssh dom@dead:beef::250:56ff:feb9:c14d
 password Gummer59
 
 ipv6 changes after reset
+
+
+I know the code to the rootme.so i hidden inside the file : mod_rootme.so 
+the problem is I don't know how to get a hold of it. 
+
+i tried disassemble the file but the assembly coded does not make too much sense for me, and think the software it too complex for first time usage. 
+
+And other idea is to debug apache module with gdb 
+first start the process through the binary  /usr/sbin/apache2
+then use either ddd or gdb too open the binarty an attach the process. 
+
+
+Note: maybe add gdb debug symbols could help in the debugging process ? 
