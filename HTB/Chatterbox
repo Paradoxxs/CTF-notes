@@ -12,3 +12,9 @@ https://www.reddit.com/r/AskNetsec/comments/6wl04j/issue_with_metasploit_payload
 
 runs the reverse tcp hander, it opens, but closes right away. 
 
+change the payload to shell
+
+as for root 
+rename the file
+ren root.txt deep
+
