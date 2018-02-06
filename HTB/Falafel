@@ -24,3 +24,8 @@ Dear lawyers, please handle him. I believe Cyberlaw is on our side.
 Dear develpors, fix this broken site ASAP.
 
 	~admin
+
+
+sqlmap 
+
+[11:57:07] [INFO] POST parameter 'password' appears to be 'HSQLDB >= 2.0 stacked queries (heavy query)' injectable 
