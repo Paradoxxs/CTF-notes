@@ -185,3 +185,7 @@ then use either ddd or gdb too open the binarty an attach the process.
 
 
 Note: maybe add gdb debug symbols could help in the debugging process ? 
+
+FunSociety
+nc -nv 10.10.10.80 80
+
