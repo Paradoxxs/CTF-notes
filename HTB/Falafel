@@ -29,3 +29,6 @@ Dear develpors, fix this broken site ASAP.
 sqlmap 
 
 [11:57:07] [INFO] POST parameter 'password' appears to be 'HSQLDB >= 2.0 stacked queries (heavy query)' injectable 
+
+https://www.whitehatsec.com/blog/magic-hashes/
+md5 magic hash 240610708
