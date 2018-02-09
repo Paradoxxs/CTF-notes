@@ -233,13 +233,7 @@ password : babygurl69
 webdav_tester | babygurl69
 now I just need to find the correct dir under webdav_test_inception
 			       
-  http://10.10.10.67/webdav_test_inception/cm.php | allow me to send querys, lets try get the source code to see what the queries get send too
-  cm.php gone ? added by an other user ? lets try dirbuster again and see what location we find. 
-  ls commands show ce.php and webdav.paswd
-  
-  I think the quiery page get genrated randomly every time it reset ? 
-  it allows me to execute certains commands on the server, now I just need to find what commands I can execute to get a remote shell on the server. NC does not seems to work. 
-  lets try to ping my own server. 
+
   
   I can see there running a FTP and SSH server on the machine, lets try and use the http proxy to get access to the services. 
 
@@ -247,6 +241,8 @@ hint from Robert
 use htp proxy to get ssh shell
 tftp to get root
 tftp is ftp whitout auth.
+
+upload file to web services. 
 
 curl --upload-file bash.php http://webdav_tester:babygurl69@10.10.10.67/webdav_test_inception/
 
