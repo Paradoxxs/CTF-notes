@@ -36,3 +36,6 @@ md5 magic hash 240610708
 
 the upload funktion will turncate at 236 plus 4 addition char for .jpg will give us 240 characters long filename. 
 <filename>.php.jpg (240 char) php shell to get initial shell as www-data
+/var/www/html/connection.php
+ssh
+moshe : falafelIsReallyTasty
