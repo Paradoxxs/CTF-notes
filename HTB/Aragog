@@ -1,0 +1,16 @@
+
+PORT SERVICE 
+21    FTP
+22    SSH
+80    HTTP
+
+FTP 
+subnet_mask : 255.255.255.192
+
+HTTP: 
+apache default page. 
+icons/README.html
+
+host.php
+There are 4294967294 possible host for
+
