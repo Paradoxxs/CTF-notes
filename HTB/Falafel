@@ -46,6 +46,6 @@ moshe : falafelIsReallyTasty
 |  2 | chris    | d4ee02a22fc872e36d9e3751ba72ddc8 | normal |  DECRYPTET : juggling
 +----+----------+----------------------------------+--------+
 
-
+frame buffer from /dev/fb0 and convert to file.data and use gimp to get the image. 
 MoshePlzStopHackingMe!
 
