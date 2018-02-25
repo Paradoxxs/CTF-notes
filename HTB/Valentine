@@ -27,4 +27,4 @@ hearthbleed
 heartbleedbelievethehype
 
 need to find the username that match the key
-tmux -S /.devs/dev_sess
+using tmux
