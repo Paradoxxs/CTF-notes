@@ -14,3 +14,7 @@ icons/README.html
 host.php
 There are 4294967294 possible host for
 
+login.php user.php wp-login.php all returns error code 500
+
+but login.php return 200 in dirbuster. 
+
