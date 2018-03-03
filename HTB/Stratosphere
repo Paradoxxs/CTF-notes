@@ -1,0 +1,10 @@
+service port
+ssh   22
+http  80        tomcat version ? 
+http-proxy 8080
+
+
+
+10.10.10.64/manager
+
+require auth 
