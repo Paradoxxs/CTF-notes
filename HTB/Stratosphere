@@ -8,3 +8,10 @@ http-proxy 8080
 10.10.10.64/manager
 
 require auth 
+
+
+http://10.10.10.64:8080/Monitoring/example/Welcome.action
+
+http://10.10.10.64:8080/Monitoring/example/Login.action
+
+login not yet implementet
