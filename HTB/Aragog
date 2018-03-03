@@ -18,3 +18,10 @@ login.php user.php wp-login.php all returns error code 500
 
 but login.php return 200 in dirbuster. 
 
+10.10.10.78/shell.py
+
+Python Bind TCP PTY Shell - testing version
+infodox - insecurety.net (2013)
+
+Binds a PTY to a TCP port on the host it is ran on.
+"""
