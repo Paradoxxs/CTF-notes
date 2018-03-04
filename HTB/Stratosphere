@@ -1,6 +1,6 @@
 service port
 ssh   22
-http  80        tomcat version ? 
+http  80        Apache Tomcat 8.5.14
 http-proxy 8080
 
 
