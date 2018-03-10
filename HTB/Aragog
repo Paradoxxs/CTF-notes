@@ -15,3 +15,5 @@ host.php
 There are 4294967294 possible host for
 
 
+curl --upload-file test2.xml http://10.10.10.78/hosts.php
+XML External Entities
