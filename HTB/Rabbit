@@ -1,0 +1,7 @@
+http 80   http://10.10.10.71:8080/joomla/
+
+
+http://10.10.10.71:8080/joomla/
+
+port 25 exchange smtpd 
+53 DNS  ; 389 Active diretory ; 
