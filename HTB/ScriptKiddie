@@ -1,0 +1,5 @@
+IP : 10.10.10.226 
+
+Ports
+22/tcp SSH 
+5000/tcp http werkzeug httpd 0.16.1
