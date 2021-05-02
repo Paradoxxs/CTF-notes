@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Armageddon.md",
+            "file": "HTB/Ophiunchi.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Incident reponse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Armageddon.md",
+                "file": "HTB/Ophiunchi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,7 @@
   },
   "active": "7479f6c8c5d42442",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-=======
     "Untitled.md",
->>>>>>> Stashed changes
     "HTB/Ready.md",
     "HTB/Untitled.md"
   ]
