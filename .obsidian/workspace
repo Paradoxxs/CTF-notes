@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Notebook.md",
+            "file": "Unobtainium.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Incident reponse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Notebook.md",
+                "file": "Unobtainium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,10 @@
   "active": "7479f6c8c5d42442",
   "lastOpenFiles": [
     "Untitled.md",
+    "HTB/Untitled.md",
+    "Atom.md",
+    "Monitors.md",
     "HTB/Ready.md",
-    "HTB/Untitled.md"
+    "The Notebook.md"
   ]
 }
