@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Unobtainium.md",
+            "file": "HTB/Unobtainium.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unobtainium.md",
+                "file": "HTB/Unobtainium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,13 @@
   },
   "active": "7479f6c8c5d42442",
   "lastOpenFiles": [
+    "HTB/Unobtainium.md",
+    "HTB/Ready.md",
+    "HTB/The Notebook.md",
+    "Pasted image 20210506124830.png",
+    "Unobtainium.md",
     "The Notebook.md",
     "Untitled.md",
-    "HTB/Untitled.md",
-    "Atom.md",
-    "Monitors.md",
-    "HTB/Ready.md",
-    "The Notebook.md"
+    "HTB/Untitled.md"
   ]
 }
