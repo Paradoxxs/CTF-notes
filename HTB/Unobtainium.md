@@ -526,5 +526,3 @@ nc -lvnp 9005 > root.txt
 and we got root. 
 
 Hash -> $6$.hk3Zm.2qShoCbQK$LM95a1qtDhEtLPGorD8FmMY5pNef7WfodyUUaw9tikXkh8v/.qmhJPIEV40KYehroJybb4C12gLfQu0UsbFe80
-
-[https://0xdedinfosec.github.io/posts/htb-unobtainium/](https://0xdedinfosec.github.io/posts/htb-unobtainium/)

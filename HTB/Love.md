@@ -92,5 +92,3 @@ and I got root.
 
 Hash -> aab42ca009fed69fa5ee57c52cf5bcf1
 
-[writeup](https://hackingwebservice.wordpress.com/2021/05/02/htb-hackthebox-love-writeup/)
-[https://0xdedinfosec.github.io/posts/htb-love/](https://raidforums.com/misc.php?action=safelinks&url=https%3A%2F%2F0xdedinfosec.github.io%2Fposts%2Fhtb-love%2F)

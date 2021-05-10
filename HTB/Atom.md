@@ -170,5 +170,3 @@ And we got root access.
 
 hash -> 7df7256dc47d2125d825058b2f89ff38
 writeups:
-https://0xdedinfosec.github.io/posts/htb-atom/
-https://hackingwebservice.wordpress.com/2021/04/22/htb-hackthebox-atom-writeup/

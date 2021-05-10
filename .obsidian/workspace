@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Unobtainium.md",
+            "file": "HTB/Armageddon.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Unobtainium.md",
+                "file": "HTB/Armageddon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,13 +88,15 @@
   },
   "active": "7479f6c8c5d42442",
   "lastOpenFiles": [
-    "HTB/Unobtainium.md",
+    "HTB/Armageddon.md",
+    "HTB/Atom.md",
+    "HTB/Love.md",
+    "HTB/Monitors.md",
+    "HTB/Ophiunchi.md",
     "HTB/Ready.md",
+    "HTB/Schooled.md",
     "HTB/The Notebook.md",
-    "Pasted image 20210506124830.png",
-    "Unobtainium.md",
-    "The Notebook.md",
-    "Untitled.md",
-    "HTB/Untitled.md"
+    "HTB/Unobtainium.md",
+    "Untitled.md"
   ]
 }
