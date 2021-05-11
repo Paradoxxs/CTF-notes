@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Cereal.md",
+            "file": "HTB/Breardcrumbs.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "multi",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Cereal.md",
+                "file": "HTB/Breardcrumbs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,17 +79,8 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "60b0e69eb2ec9638",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,15 +89,15 @@
   },
   "active": "7479f6c8c5d42442",
   "lastOpenFiles": [
+    "HTB/Beardcrumbs.md",
+    "HTB/Untitled.md",
     "HTB/Cereal.md",
-    "HTB/Love.md",
-    "HTB/Atom.md",
-    "HTB/Unobtainium.md",
     "HTB/Armageddon.md",
-    "Cereal.md",
-    "Pasted image 20210510082228.png",
-    "Pasted image 20210506124830.png",
-    "Pasted image 20210510082113.png",
-    "Pasted image 20210510082208.png"
+    "HTB/Atom.md",
+    "HTB/Love.md",
+    "HTB/Monitors.md",
+    "HTB/Ophiunchi.md",
+    "HTB/Ready.md",
+    "HTB/Schooled.md"
   ]
 }
