@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7479f6c8c5d42442",
+        "id": "ecf20a48c28817ed",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Breardcrumbs.md",
+            "file": "HTB/Pit.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "multi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "11c211c4412b6595",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Breardcrumbs.md",
+                "file": "HTB/Pit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,25 +78,32 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "60b0e69eb2ec9638",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "7479f6c8c5d42442",
+  "active": "ecf20a48c28817ed",
   "lastOpenFiles": [
-    "HTB/Beardcrumbs.md",
-    "HTB/Untitled.md",
+    "HTB/Pit.md",
+    "HTB-PIT-Writeup-2.pdf",
+    "Untitled.md",
     "HTB/Cereal.md",
-    "HTB/Armageddon.md",
-    "HTB/Atom.md",
     "HTB/Love.md",
-    "HTB/Monitors.md",
-    "HTB/Ophiunchi.md",
-    "HTB/Ready.md",
-    "HTB/Schooled.md"
+    "HTB/Atom.md",
+    "HTB/Unobtainium.md",
+    "HTB/Armageddon.md",
+    "Cereal.md",
+    "Pasted image 20210510082228.png"
   ]
 }
