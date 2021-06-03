@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Pit.md",
+            "file": "Spider.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "multi",
+                "query": "mac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Pit.md",
+                "file": "Spider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,15 +95,15 @@
   },
   "active": "ecf20a48c28817ed",
   "lastOpenFiles": [
+    "Spider.md",
+    "Pasted image 20210518131922.png",
+    "Untitled.md",
     "HTB/Pit.md",
     "HTB-PIT-Writeup-2.pdf",
-    "Untitled.md",
     "HTB/Cereal.md",
     "HTB/Love.md",
     "HTB/Atom.md",
     "HTB/Unobtainium.md",
-    "HTB/Armageddon.md",
-    "Cereal.md",
-    "Pasted image 20210510082228.png"
+    "HTB/Armageddon.md"
   ]
 }
