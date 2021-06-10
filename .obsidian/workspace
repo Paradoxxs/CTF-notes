@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7479f6c8c5d42442",
+        "id": "7dcc4a693ce350b8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Breardcrumbs.md",
+            "file": "HTB/Proper.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "snmp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +48,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "11c211c4412b6595",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Breardcrumbs.md",
+                "file": "HTB/Proper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7479f6c8c5d42442",
+  "active": "7dcc4a693ce350b8",
   "lastOpenFiles": [
-    "HTB/Beardcrumbs.md",
-    "HTB/Untitled.md",
-    "HTB/Cereal.md",
-    "HTB/Armageddon.md",
+    "HTB/Proper.md",
+    "HTB/Tentacle.md",
+    "HTB-challenges/PersistenceIsFutile.md",
+    "HTB/Pit.md",
+    "HTB/Pivotapi.md",
     "HTB/Atom.md",
-    "HTB/Love.md",
-    "HTB/Monitors.md",
+    "Fortress/Jet.md",
     "HTB/Ophiunchi.md",
-    "HTB/Ready.md",
-    "HTB/Schooled.md"
+    "HTB/Cereal.md",
+    "Untitled.md"
   ]
 }
