@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"pluginEnabledStatus":{"file-explorer":true,"global-search":true,"switcher":true,"graph":true,"backlink":true,"command-palette":true,"markdown-importer":true,"word-count":true,"open-with-default-app":true,"file-recovery":true,"page-preview":true},"spellcheck":true,"enabledPlugins":["obsidian-git","obsidian-citation-plugin","cm-editor-syntax-highlight-obsidian","table-editor-obsidian"],"cssTheme":"Cybertron","baseFontSize":10,"promptDelete":false}
+=======
+{"pluginEnabledStatus":{"file-explorer":true,"global-search":true,"switcher":true,"graph":true,"backlink":true,"command-palette":true,"markdown-importer":true,"word-count":true,"open-with-default-app":true,"file-recovery":true,"page-preview":true},"spellcheck":true,"enabledPlugins":["obsidian-git"],"cssTheme":"Cybertron","baseFontSize":16,"promptDelete":false}
+>>>>>>> d8faaa8c588426cb99358fe42a7d4403c2f050a6
