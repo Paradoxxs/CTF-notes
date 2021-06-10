@@ -298,5 +298,26 @@ We know that host have FTP port open, which transfer data in clear text includin
 Credentials. 
 nathan / Buck3tH4TF0RM3!
 
+Lets login to the FTP server
 
+```
+ftp spider.htb  
+Connected to spider.htb.  
+220 (vsFTPd 3.0.3)  
+Name (spider.htb:avhn): nathan  
+331 Please specify the password.  
+Password:  
+230 Login successful.  
+Remote system type is UNIX.  
+Using binary mode to transfer files.  
+ftp> dir  
+200 PORT command successful. Consider using PASV.  
+150 Here comes the directory listing.  
+drwxr-xr-x    3 1001     1001         4096 Jun 10 14:10 snap  
+\-r--------    1 1001     1001           33 Jun 10 13:59 user.txt
+```
+
+And we got the user flag. 
+
+## Privileged escalation 
 
