@@ -321,3 +321,11 @@ And we got the user flag.
 
 ## Privileged escalation 
 
+The password and username also works for the SSH.
+We start as always using the command *sudo -l * to check if we can run anything as root not nothing.
+
+lets use [linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) to see if there anything we can exploit. 
+
+Transfer it over to the box using wget 
+
+|
