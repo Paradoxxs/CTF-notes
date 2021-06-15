@@ -195,7 +195,7 @@ SMB 10.10.10.240    445    PIVOTAPI SYSVOL          READ     
 ```
 
 We have access to three directory, let use *smbclient* to access the shares and see if we can find anything of interesting. 
-
+#smbclient
 ```bash
 smbclient //pivotapi.htb/SYSVOL -U kaorz%Roper4155
 ```

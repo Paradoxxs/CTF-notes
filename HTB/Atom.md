@@ -24,7 +24,7 @@ echo "10.10.10.237 atom.htb" >> /etc/hosts
 On the http/https is the same page, which allows you to download a program for windows. 
 
 lets try SMB port 
-
+#smbclient
 ````bash
 smbclient atom.htb
 ````

@@ -58,7 +58,8 @@ What I see there two options salt\$hash or hash\$salt.
 
 
 While I was look at source code I started to do some enumeration on the site for looking for sites.  
-
+### gobuster
+#gobuster
 ```bash
 └──╼ $ gobuster dir -u http://proper.htb -w /usr/share/wordlists/SecLists/Discovery/Web-Content/raft-small-words.txt -t 50 -k  
 \===============================================================  
@@ -128,8 +129,8 @@ rm -rf $COOKIE
 ```
 
 
-smbserver 
-
+### smbserver 
+#smbserver
 ```bash
 sudo smbserver.py .ip 10.10.14.19 -smb2support  
 Impacket v0.9.23.dev1+20210517.123049.a0612f00 - Copyright 2020 SecureAuth Corporation  

